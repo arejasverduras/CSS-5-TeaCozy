@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body, header {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      color: seashell;
+      opacity: 0.9;
+      background-color: black;
+  }
+
+  header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .logo {
+    margin-left: 10px;
+    height: 50px;
+    opacity: 0.9;
+  }
+
+  nav {
+    display: flex;
+    gap: 1em;
+    margin-right: 10px;
+
+  }
+
+  nav a {
+    color: inherit;
+  }
+main {
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+/*Section container*/
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+
+
+/*Mission Section*/
+
+
+.missionwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+}
+
+.miss{
+  width: 100%;
+  text-align: center;
+ background-color: black;
+ width: 1200px;
+}
+
+/* Tea section */
+
+#featuredtea {
+  margin-top: 70px;
+}
+
+
+
+.teacontainer {
+  display: flex;
+  max-width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.teablock {
+  display: inline-block;
+  width: 300px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+}
+
+.teablock img {
+
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Locations */
+
+#locations {
+  min-height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+  max-width: 1200px;
+  margin: 70px auto;
+}
+
+.locationscontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locationblock {
+  padding: 8px;
+  margin: 15px 20px;
+  width: 300px;
+  background-color: black;
+  line-height: 2em;
+}
+
+/* Start of Footer */
+/*Contact section */
+
+#contact {
+  padding-top :70px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
